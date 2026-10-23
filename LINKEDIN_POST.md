@@ -5,7 +5,7 @@
 el segundo mejor candidato es `fig5_cancellation_rate.png` como segunda imagen
 del carrusel, para mostrar la confirmación de causa raíz en la misma publicación).
 
-**Link:** el repo de GitHub una vez que lo subas (ver `GITHUB_SETUP.md`).
+**Link:** https://github.com/lucasagustinpiccoli/marketpulse-ecommerce-analytics
 
 ---
 
@@ -27,7 +27,7 @@ El repo incluye:
 🤖 Un agente de IA (Claude) que convierte las métricas en un resumen de incidente redactado para negocio
 📄 Case study completo en el README
 
-Repo: [LINK]
+Repo: https://github.com/lucasagustinpiccoli/marketpulse-ecommerce-analytics
 
 #DataAnalytics #BusinessIntelligence #SQL #Python #AI #Analytics
 
@@ -51,14 +51,13 @@ What's in the repo:
 🤖 An AI agent (Claude) that turns the metrics into a business-ready incident summary
 📄 Full case study in the README
 
-Repo: [LINK]
+Repo: https://github.com/lucasagustinpiccoli/marketpulse-ecommerce-analytics
 
 #DataAnalytics #BusinessIntelligence #SQL #Python #AI #Analytics
 
 ---
 
 ## Notas
-- Reemplazá `[LINK]` por la URL real del repo una vez publicado.
 - Si querés, puedo armar un segundo post (parte 2) más adelante mostrando
   específicamente el agente de IA (`ai_agent/insight_agent.py`) con su output
   real — buena forma de tener contenido recurrente sin tener que armar un
