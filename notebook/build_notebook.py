@@ -272,20 +272,16 @@ carrier or logistics-partner issue, not a demand or pricing problem.
 **Recommendation:** route a weekly automated alert (the query in section 4)
 straight to the operations team with the cancellation-rate check attached
 by default, so "demand dipped" and "something broke" are distinguished at
-alert time instead of requiring a manual deep-dive days later. This is the
-same anomaly-detection-dashboard pattern used in production at
-[PedidosYa, Rider Care](https://www.linkedin.com/in/lucas-piccoli/) — this
-notebook rebuilds the same reasoning end-to-end on a synthetic dataset.
+alert time instead of requiring a manual deep-dive days later.
 
 ## 7. AI-assisted insight generation
 
 [`ai_agent/insight_agent.py`](../ai_agent/insight_agent.py) takes the exact
 summary stats computed above (baseline, drop %, cancellation-rate delta)
 and asks Claude to draft the written incident summary a business
-stakeholder would actually read — the same AI-augmented-analytics workflow
-pattern used for the other projects in this portfolio, applied here to a
-synthetic case instead of real client data. See that file's module
-docstring for a sample run.
+stakeholder would actually read — closing the loop from raw numbers to a
+decision-ready narrative instead of leaving that translation step manual.
+See that file's module docstring for a sample run.
 """)
 
 nb = {

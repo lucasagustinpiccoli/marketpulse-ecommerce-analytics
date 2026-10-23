@@ -15,10 +15,11 @@ Produces:
 import sqlite3
 import random
 from datetime import date, timedelta
+from pathlib import Path
 
 random.seed(42)
 
-DB_PATH = "marketpulse.db"
+DB_PATH = Path(__file__).parent / "marketpulse.db"
 
 REGIONS = ["Argentina", "Chile", "Mexico", "Colombia"]
 CATEGORIES = [
