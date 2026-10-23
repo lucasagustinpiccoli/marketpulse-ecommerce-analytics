@@ -32,6 +32,9 @@ git push -u origin main
 - Verificá que el notebook (`notebook/analysis.ipynb`) se renderiza bien en la
   página del repo — GitHub muestra los gráficos automáticamente si el notebook
   tiene los outputs guardados (ya los tiene).
-- Copiá la URL del repo y pegala en `LINKEDIN_POST.md` donde dice `[LINK]`.
 - Opcional: agregá el link del repo a tu perfil de LinkedIn (sección
   "Proyectos destacados" / Featured).
+
+Los borradores del post de LinkedIn viven aparte, en el workspace privado de
+búsqueda laboral (`documents/marketpulse_linkedin_posts.md`), no en este repo
+público.
